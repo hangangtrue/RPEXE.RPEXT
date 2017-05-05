@@ -17,13 +17,12 @@
 #' @export
 #'
 #' @examples
-#' data(gamllik_data)
-#' structtime = c(0.08493151, 1.89315068, 2.38630137, 12.70958904, 18.59452055, 23.46027397, 24.70958904, 28.03013699, 47.85479452, 51.07671233)
-#' structttot = c(15.08493, 302.03836,  73.34795, 1090.68493, 345.04110, 199.20000, 41.22740, 99.71507, 369.89589,  82.45479)
-#' structdeaths = c(2, 25, 6, 76, 22, 10, 2, 4, 6, 1)
-#' time_die = gamllik_data[,1]
-#' ttot = gamllik_data[,2]
-#' deaths = gamllik_data[,3]
+#' time_die <- c(0.05,0.08,0.38,0.41,0.64)
+#' ttot <- c(9.2,5.8,52.1,5.8,40.0)
+#' deaths <- c(1,1,1,1,1)
+#' structtime <- c(0.05,0.64)
+#' structttot <- c(9.2, 40.0)
+#' structdeaths = c(1, 5)
 #' gamllik(structtime,structttot,structdeaths,time_die,ttot,deaths)
 gamllik=function(structtime,structttot,structdeaths,time_die,ttot,deaths)
 {

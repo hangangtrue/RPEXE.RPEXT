@@ -11,6 +11,7 @@ knitr::opts_chunk$set(
   fig.path = "README-"
 )
 ```
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/RPEXE.RPEXT)](https://cran.r-project.org/package=RPEXE.RPEXT)
 
 # RPEXE.RPEXT
 

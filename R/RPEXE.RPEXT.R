@@ -1,4 +1,4 @@
-#' @title Reduced piecewise exponential estimate/test software 
+#' @title Reduced Piecewise Exponential Estimate/Test Software 
 #' @name RPEXE.RPEXT
 #' @docType package
 #' @description This reduced piecewise exponential survival software implements the likelihood ratio test 
@@ -126,15 +126,6 @@ NULL
 #' @keywords datasets
 #' @name t100
 #' @usage data(t100)
-NULL
-
-#' Example data for gamllik
-#' 
-#' 
-#' @docType data
-#' @keywords datasets
-#' @name gamllik_data
-#' @usage data(gamllik_data)
 NULL
 
 #' Example data for loopcut_onestep
