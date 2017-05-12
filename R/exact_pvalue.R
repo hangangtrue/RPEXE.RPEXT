@@ -10,6 +10,8 @@
 #'             1: 1-sided hypothesis: H0: lam1 is greater than or equal to lam2; H1: lam1 is less than lam2
 #'             2: 1-sided hypothesis: H0: lam1 is less than or equal to lam2; H1: lam1 is greater than lam2
 #'
+#' @importFrom stats pbeta
+#'
 #' @usage exact_pvalue(ttot1,ttot2,dea1,dea2,mono)
 #' 
 #' @return

@@ -7,6 +7,12 @@
 #' @param pos The position of the legend. Can be 0 or 1. The legend will be 
 #'    on the topright if set to 0. The legend will be on the bottomleft if set to 1. Default is 0.
 #'
+#' @importFrom graphics plot
+#' @importFrom graphics points
+#' @importFrom graphics lines
+#' @importFrom graphics title
+#' @importFrom graphics legend
+#'
 #' @return
 #' A combined Kaplan Meier curve 
 #' 

@@ -30,6 +30,10 @@
 #' @param pos The position of the legend. Can be 0 or 1. The legend will be 
 #'    on the topright if set to 0. The legend will be on the bottomleft if set to 1. Default is 0.
 #'
+#' @importFrom graphics points
+#' @importFrom graphics lines
+#' @importFrom graphics legend
+#'
 #' @usage RPEXEv1_2(times,censoring,cuttimes=NULL, monotone=0, criticalp=-1, pos = 0)
 #'
 #' @return

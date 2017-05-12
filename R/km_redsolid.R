@@ -7,11 +7,15 @@
 #' @param plotcens 0: add censored data to the output curve
 #' 
 #'                 1: don't add censored data to the output curve
+#'                 
+#' @importFrom  graphics lines
+#' @importFrom graphics points                 
+#'                 
 #' @usage km_redsolid(time, censor, plotcens)
 #' @return
 #' A red solid Kaplan Meier curve
 #' 
-#' @export
+#' @export km_redsolid
 #'
 #' @examples
 #' t1 <- c(2,3,4,5.5,7,10,12,15)
@@ -129,7 +133,7 @@ km_redsolid <- function(time, censor, plotcens){
   ypart[2*ldea+2] = lowery[ldea+1]
   
   # plot the main survival curve
-  lines(xpart, ypart, type = "s",xlab="Years", ylab="Survival probability", col = "red", lwd = 3)
+  graphics::lines(xpart, ypart, type = "s",xlab="Years", ylab="Survival probability", col = "red", lwd = 3)
   
   # add the points of censor data
   if (plotcens == 1){
@@ -148,7 +152,7 @@ km_redsolid <- function(time, censor, plotcens){
       }
       if (tcen != 0)
       {
-        points(tcen, ypart[k],cex=.8,pch=1,col="red")
+        graphics::points(tcen, ypart[k],cex=.8,pch=1,col="red")
       }
     }
   }

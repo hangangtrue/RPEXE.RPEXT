@@ -4,7 +4,7 @@
 \name{RPEXE.RPEXT}
 \alias{RPEXE.RPEXT}
 \alias{RPEXE.RPEXT-package}
-\title{Reduced piecewise exponential estimate/test software}
+\title{Reduced Piecewise Exponential Estimate/Test Software}
 \description{
 This reduced piecewise exponential survival software implements the likelihood ratio test 
 and backward elimination procedure in Han, Schell, and Kim (2012, 2014), and Han et al. (2016). Inputs 

@@ -8,11 +8,14 @@
 #' 
 #'                 1: don't add censored data to the output curve
 #'
+#' @importFrom graphics plot
+#' @importFrom graphics points
+#'
 #' @usage km_red(time, censor, plotcens)
 #' @return
 #' A red Kaplan Meier curve
 #' 
-#' @export
+#' @export km_red
 #'
 #' @examples
 #' t1 <- c(2,3,4,5.5,7,10,12,15)

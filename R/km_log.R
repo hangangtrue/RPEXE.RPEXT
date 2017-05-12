@@ -7,6 +7,9 @@
 #' 
 #'                 1: don't add censored data to the output curve
 #'
+#' @importFrom graphics plot
+#' @importFrom graphics points
+#'
 #' @usage km_log(time, censor, plotcens)
 #' @return
 #' A Kaplan Meier curve in log scale

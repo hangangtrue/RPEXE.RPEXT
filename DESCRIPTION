@@ -13,6 +13,7 @@ Description: This reduced piecewise exponential survival software implements the
 Depends:
     R (>= 3.2.2)
 License: GPL-3
+Imports: stats, graphics
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1.9000

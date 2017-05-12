@@ -9,6 +9,8 @@
 #' @param ttot total time on test corresponding to time_die
 #' @param deaths the number of deaths corresponding to "ttot"
 #' 
+#' @importFrom stats dgamma
+#' 
 #' @usage gamllik(structtime,structttot,structdeaths,time_die,ttot,deaths)
 #' 
 #' @return

@@ -7,6 +7,9 @@
 #' @param plotcens 0: don't add censored data symbol to the output curve
 #'                 1: add censored data symbol to the output curve
 #'
+#' @importFrom graphics plot
+#' @importFrom graphics points
+#' 
 #' @usage km(time, censor, plotcens)
 #'
 #' @return

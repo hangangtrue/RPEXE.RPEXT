@@ -6,7 +6,10 @@
 #' @param censor a vector indicating censoring: 0 = censored; 1 = uncensored
 #' @param plotcens 0: don't add censored data symbol to the output curve
 #'                 1: add censored data symbol to the output curve
-#'
+#'                 
+#' @importFrom graphics plot
+#' @importFrom graphics points
+#' 
 #' @usage km_blacksolid(time, censor, plotcens)
 #'
 #' @return
