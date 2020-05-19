@@ -28,6 +28,13 @@ totaltest <- function(time,censor)
   tmp2 = tmpdata[order(time),]
   tmp2 = cbind(tmp2,rep(0,dim(tmp2)[1]))
   
+  # make sure events appear before censoring;
+  tmp_sort = cbind(tmp2[,3], 1-tmp2[,2])
+  tmp_sort2 = tmp_sort[order(tmp_sort[,1],tmp_sort[,2]),]
+  tmp_sort2[,2] = 1-tmp_sort2[,2]
+  tmp2[,3] = tmp_sort2[,1]
+  tmp2[,2] = tmp_sort2[,2]
+  
   #Compute alpha's for the sequence
   for (i in 1:dim(tmp2)[1])
   {
