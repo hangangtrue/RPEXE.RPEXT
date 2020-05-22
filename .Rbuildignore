@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^doc$
+^Meta$
+^cran-comments\.md$
+^data_raw$
+^README\.Rmd$
+^README-.*\.png$
+^README\.html$
